@@ -58,7 +58,7 @@ export const projectsData = [
       "logos:swift",
       "logos:xcode"
     ],
-    imageUrl: cryptoCrowdImg,
+    //imageUrl: cryptoCrowdImg,
     // githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
     // demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
@@ -70,7 +70,7 @@ export const projectsData = [
     icons: [
       "mdi:language-r"
     ],
-    imageUrl: ozdevsImg,
+    //imageUrl: ozdevsImg,
     // urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
     // githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
@@ -86,7 +86,7 @@ export const projectsData = [
       "logos:tensorflow",
       "logos:matplotlib"
     ],
-     imageUrl: assetTradingImg,
+    // imageUrl: assetTradingImg,
     // githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   }
 ] as const;
