@@ -13,9 +13,9 @@ type ProjectProps = {
   tags: readonly string[];
   icons: readonly string[];
   //imageUrl: StaticImageData;
-  githubLink?: string;
-  demoLink?: string;
-  urlLink?: string;
+  //githubLink?: string;
+  //demoLink?: string;
+  //urlLink?: string;
 };
 
 export default function Project({
@@ -24,9 +24,9 @@ export default function Project({
   tags,
   icons,
   //imageUrl,
-  githubLink,
-  demoLink,
-  urlLink,
+  //githubLink,
+  //demoLink,
+  //urlLink,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -59,7 +59,7 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 mb-3">
             {description}
           </p>
-          <div className="flex">
+          {/* <div className="flex">
             {urlLink && (
               <a
                 href={urlLink}
@@ -93,7 +93,7 @@ export default function Project({
                 <span className="opacity-70">GitHub</span>
               </a>
             )}
-          </div>
+          </div>*/}
         </div>
 
         {/* <Image
